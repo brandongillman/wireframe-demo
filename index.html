@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Basecamp is everyone's favorite project management app.</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,9 +18,41 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Wireframe Demo</h1>
-    <p>Start here...</p>
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="top"><a href="#">See prices & start a free trial</a></li>
+          <li class="top"><a href="#">Check out an example project</a></li>
+          <li class="top"><a href="#">Support</a></li>
+          <li class="active"><a href="#">Log In</a></li>
+        </ul>
+        <img class="logo" src="img/logo.png" />
+      </div>
 
+      <div class="jumbotron">
+        <img class="cartoon1" src="img/cartoon1.png" />
+        <h2>Last year alone, Basecamp helped over 285,000 companies finish more than 2,000,000 projects.</h2>
+        <p class="lead"></p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button"><strong>Give Basecamp a try - it's free for 60 days</strong></a></p>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; Company 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

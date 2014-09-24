@@ -1,0 +1,19 @@
+.jumbotron, .row{
+	text-align: center;
+}
+.logo{
+	width: 160px;
+}
+.btn{
+	background-color: blue;
+}
+.jumbotron{
+	background-color: white;
+}
+body{
+	margin-top: 20px;
+	margin-right: 0px;
+}
+.top{
+	text-decoration: underline;
+}
