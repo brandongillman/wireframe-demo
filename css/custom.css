@@ -5,7 +5,8 @@
 	width: 160px;
 }
 .btn{
-	background-color: blue;
+	background-color: green;
+	color: white;
 }
 .jumbotron{
 	background-color: white;
@@ -16,4 +17,19 @@ body{
 }
 .top{
 	text-decoration: underline;
+}
+.row{
+	margin-top: 40px;
+}
+.name{
+	font-family: "Brush Script MT", cursive;
+	font-size: 40px;
+}
+form{
+	margin-top: 20px;
+}
+.selfie{
+	margin-top: 20px;
+.info{
+
 }
